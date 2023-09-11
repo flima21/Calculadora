@@ -69,13 +69,13 @@ public class CalculadoraTeste {
         System.out.println(calc.subtrair(Integer.MAX_VALUE, 1));
         /*  DESCRIÇÃO DOS CENÁRIOS
 
-            1) O cenário se apresentou eficiente e retornou o valor esperado, 3.
+            1) O cenário se apresentou eficiente e retornou o valor esperado, 1.
             2) O cenário se apresentou eficiente e retornou o valor esperado,-1.
-            3) O cenário se apresentou eficiente e retornou o valor esperado, 1.
+            3) O cenário se apresentou eficiente e retornou o valor esperado,-3.
             4) O cenário se apresentou eficiente e retornou o valor esperado, 0.
             5) O cenário se apresentou não eficiente, visto que o método subtrair foi previsto para receber dois número de tipo INT e ao passar um float, double ou long, ele apresentou um erro,
             seria interessante os métodos serem trabalhados para verificar os tipos e conseguir receber de todas as formas os números
-            6) O cenário se apresentou não eficiente, visto que o método subtrair foi previsto para receber dois número de tipo INT e ao passar um float, double ou long, ele apresentou um erro.
+            6) O cenário se apresentou não eficiente, visto que o método subtrair foi previsto para receber dois número de tipo INT e ao passar um float, char,double ou long, ele apresentou um erro.
             7) O cenário não apresentou erros (Crashar a aplicação), todavia, apresentou um overflow, ou seja, excedeu a capacidade maxima do tipo int ao ser acrescentado + 1 e retornou o valor minimo possível representado.
 
             CENÁRIOS 1, 2, 3, 4 TIVERAM ÊXITO;
@@ -117,14 +117,16 @@ public class CalculadoraTeste {
             1) O cenário se apresentou eficiente e retornou o valor esperado, 2.0.
             2) O cenário se apresentou eficiente e retornou o valor esperado,-2.0.
             3) O cenário se apresentou eficiente e retornou o valor esperado,-2.0.
-            5) O cenário se apresentou eficiente e retornou o valor esperado, 2.147483647E9.
+	    3) O cenário se apresentou eficiente e retornou o valor esperado, 0.
+            5) O cenário se apresentou eficiente e retornou o valor esperado, 5.5
             6) O cenário se apresentou não eficiente, visto que o método subtrair foi previsto para receber dois número de tipo INT e ao passar um float, double ou long, char, ele apresentou um erro.
-            7) O cenário se apresentou eficiente e retornou o valor esperado, 5.5.
+            7) O cenário se apresentou eficiente e retornou o valor esperado, 2147483647.
             8) O cenário se apresentou eficiente e retornou o valor esperado, 9.5.
             9) Infinity
 
-            CENÁRIOS 1, 2, 3, 4,5,7,8,9 TIVERAM ÊXITO;
-            CENÁRIOS 6 CRASHOU
+            CENÁRIOS 1, 2, 3, 4,5,7,8 TIVERAM ÊXITO;
+            CENÁRIOS 6 CRASHOU;
+	    CENÁRIO 9 OVERFLOW;
         */
 
         System.out.println("*---------------------- CENÁRIOS DE TESTE PARA O MÉTODO DE DIVIDIR --------------------------- *");
@@ -165,11 +167,12 @@ public class CalculadoraTeste {
             5) O cenário se apresentou eficiente e retornou o valor esperado, 5.5.
             6) O cenário se apresentou não eficiente, visto que o método subtrair foi previsto para receber dois número de tipo INT e ao passar um float, double ou long, char, ele apresentou um erro.
             7) O cenário se apresentou eficiente e retornou o valor esperado, 2.147483647E9.
-            8) O cenário se apresentou eficiente e retornou o valor esperado, 9.5.
+            8) O cenário se apresentou eficiente e retornou o valor esperado, 0.65.
             9) Infinity
 
-            CENÁRIOS 1, 2, 3, 4,5,7,8,9 TIVERAM ÊXITO;
-            CENÁRIOS 6 CRASHOU
+            CENÁRIOS 1, 2, 3, 4,7,8 TIVERAM ÊXITO;
+            CENÁRIOS 4,6 CRASHOU
+	    CENÁRIOS 9 OVERFLOW
         */
     }
 }
