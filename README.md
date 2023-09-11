@@ -9,7 +9,7 @@ O repositório está divididos em pastas, as quais apresentam uma funcionalidade
 1. `lib`: São os ficheiros compactados do FrameWork JUnit (Ferramentas que auxiliam nos testes automatizados para identificar possíveis falhas nas escrituras dos códigos)
 2. `src`: Localização das classes principais do repositório:
    - Calculadora: É uma classe pública para pode ser acessada por outros scripts. Nesta está localizado os métodos abaixo:
-      1. `somar`: Recebe dois parâmetros inteiros, efetua a adição e retorna o resultado.
+      1. `somar`: Recebe dois parâmetros inteiros, efetua a adição e retorna o resultado. ![Somar](src/Somar.png)
       2. `subtrair`:
       3. `dividir`:
       4. `multiplicar` 
