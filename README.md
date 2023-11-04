@@ -31,5 +31,5 @@ Os testes foram divididos em duas partes, o teste manual, caracterizado por cria
     1. `author`: Indentificação do autor
     2. `version`: Identificação da versão 
     3. `param`: Nome dos parametros e seus retornos.
-2. A implementação acima pode ser encontrada nas classes principais em `src/Calculadora.js`, além disso, pode ser melhor analisadas no arquivo html gerado na pasta doc, que contou com auxilio da geração automática da ferramenta Javadoc.
+2. A implementação acima pode ser encontrada nas classes principais em `src/Calculadora.js`, além disso, pode ser melhor analisadas no arquivo html gerado na pasta doc, que contou com auxilio da geração automática da ferramenta Javadoc, podendo ser observada e analisada no diretório `doc/`
 
