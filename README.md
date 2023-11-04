@@ -24,4 +24,12 @@ Os testes foram divididos em duas partes, o teste manual, caracterizado por cria
 
 - Manual: Foram criados entre 6 a 9 cenários para cada operação, passando diversos tipos de parâmetros, entre eles, positivos inteiros, positivos negativos, float inteiros e negativos, char e string. E após a execução do Script anotado e comentado cada cenário na própria classe, que pode ser obtida em `Calculadora/src/CalculadoraTeste.java`.
 - Automatizado: Foram criados os mesmos cenários dos testes manual, porém foi utilizado nomenclatura de métodos diferentes e maneiras de execução distintas, neste contamos com o auxílio da biblioteca `org.junit.jupiter.api.Assertions.assertEquals` e passamos os parametros para identificar os resultados. ![JUnit](Calculadora/JUnit.png).
-   
+
+# Changelog 2023-03-11
+
+1. Implementação da documentação respeitando a documentação da estrutura do Javadoc, onde as tags como:
+    1. `author`: Indentificação do autor
+    2. `version`: Identificação da versão 
+    3. `param`: Nome dos parametros e seus retornos.
+2. A implementação acima pode ser encontrada nas classes principais em `src/Calculadora.js`, além disso, pode ser melhor analisadas no arquivo html gerado na pasta doc, que contou com auxilio da geração automática da ferramenta Javadoc.
+

@@ -1,7 +1,8 @@
-
-/*=====================================================================================================================
-  Calculadora - 2023-08-31 - FELIPE PEDROSO DE LIMA
-=====================================================================================================================*/
+/**
+ * Classe para identifacação dos testes
+ * @author Felipe Pedroso de Lima
+ * @version 1.0
+ */
 public class CalculadoraTeste {
     public static void main(String[] args) {
 
