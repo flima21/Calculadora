@@ -31,5 +31,24 @@ Os testes foram divididos em duas partes, o teste manual, caracterizado por cria
     1. `author`: Indentificação do autor
     2. `version`: Identificação da versão 
     3. `param`: Nome dos parametros e seus retornos.
-2. A implementação acima pode ser encontrada nas classes principais em `src/Calculadora.js`, além disso, pode ser melhor analisadas no arquivo html gerado na pasta doc, que contou com auxilio da geração automática da ferramenta Javadoc, podendo ser observada e analisada no diretório `doc/`
+2. A implementação acima pode ser encontrada nas classes principais em `src/Calculadora.js`, além disso, pode ser melhor analisadas no arquivo html gerado na pasta doc, que contou com auxilio da geração automática da ferramenta Javadoc, podendo ser observada e analisada no diretório `doc/`. Abaixo segue o exemplar de documentação seguido pela ferramenta.
+```
+/**
+ * Representação de uma calculadora
+ *
+ * @author Felipe Pedroso de Lima
+ * @version 1.0
+ */
+public class Calculadora {
 
+  /**
+   *
+   * @param value_1 int
+   * @param value_2 int
+   * @return int
+   */
+  public int somar(int value_1, int value_2) {
+    return (value_1 + value_2);
+  }
+
+```
